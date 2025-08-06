@@ -5,8 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="flex wrap">
+    <div class="human flex">
+      <div class="flex-vertical">
+        <div class="title">Human</div>
+        <div class="box"></div>
+      </div>
+      <div class="counter">0</div>
+    </div>
+    <div class="ai flex">
+      <div class="counter">0</div>
+      <div class="flex-vertical">
+        <div class="title">AI</div>
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+  <div class="text"></div>
+  <div class="buttons">
+    <button id="rock">Rock</button>
+    <button id="paper">Paper</button>
+    <button id="scissors">Scissors</button>
+  </div>
+  
   <script src="main.js"></script>
 </body>
 </html>
