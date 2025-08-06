@@ -1,0 +1,51 @@
+.box {
+  height: 200px;
+  width: 300px;
+  border: 4px solid black;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 900;
+  padding: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+}
+
+button {
+  font-size: 20px;
+  padding: 15px 30px;
+}
+
+.counter {
+  font-size: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 50px 0 50px;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  text-align: center;
+  font-size: 32px;
+}
